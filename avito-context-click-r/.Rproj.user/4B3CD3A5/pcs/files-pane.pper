@@ -1,0 +1,9 @@
+{
+    "path" : "~/ml-r-tb/contest/avito-context-click/avito-context-click-r",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
