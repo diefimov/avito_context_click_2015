@@ -44,7 +44,7 @@ data.fm.04.pred.tmp <- foreach(test.type=c("val", "tr", "test"), .combine=rbind,
   fn.init.worker(log.name)
   
   system(paste(
-    "ffm-train-predict",
+    "../fm/fm",
     "-k 12 -t 5 -r 0.004 -s 12 -l 0.00001",
     paste0("../data/output-libffm/fm_04/data.",test.type,".tt.fm "),
     paste0("../data/output-libffm/fm_04/data.",test.type,".tr.fm "),
